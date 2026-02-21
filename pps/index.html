@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choose your move</h1>
+      <button class="button-class" id="rock" onclick="myMove('rock')">
+        <img src="img/rock.jpg" class="icones" />
+      </button>
+      <button class="button-class" id="paper" onclick="myMove('paper')">
+        <img src="img/paper.jpg" class="icones" />
+      </button>
+      <button class="button-class" id="scissors" onclick="myMove('scissors')">
+        <img src="img/scissors.jpg" class="icones" />
+      </button> 
+
+      <p class="result"></p>
+      <p class="worl"></p>
+      <p class="scoreDom"></p>
+
+      <p><button class="reset" onclick="resetScore()">Reset score</button></p>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
